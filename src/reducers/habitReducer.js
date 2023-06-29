@@ -152,6 +152,7 @@ export function habitsReducer(state = initialHabitsState, action) {
                 : item 
               ))
           }
+         return 0;
       }
       );
 
